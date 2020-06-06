@@ -1,0 +1,68 @@
+{
+  "name": "shiksanasetu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "ssr_run": "node src/ssr/www",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.10.0",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/styles": "4.10.0",
+    "apexcharts": "3.19.2",
+    "dotenv": "8.2.0",
+    "ejs": "3.1.3",
+    "express": "4.17.1",
+    "helmet": "3.22.0",
+    "react": "16.13.1",
+    "react-document-meta": "2.1.2",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "classnames": "2.2.6",
+    "font-awesome": "4.7.0",
+    "mui-datatables": "2.15.0",
+    "react-apexcharts": "1.3.3",
+    "react-google-maps": "9.4.5",
+    "react-syntax-highlighter": "11.0.2",
+    "react-toastify": "5.5.0",
+    "recharts": "1.8.5",
+    "tinycolor2": "1.4.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "4.0.5",
+    "redux-saga": "1.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.4.3",
+    "@babel/core": "7.4.3",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.4.0",
+    "@babel/preset-env": "7.4.3",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
