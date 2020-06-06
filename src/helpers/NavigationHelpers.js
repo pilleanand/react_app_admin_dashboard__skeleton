@@ -1,6 +1,3 @@
-import { useHistory } from 'react-router-dom';
-const history = useHistory();
-
-export const navigateToPageWithPath = (pathTo) => {
+export const navigateToPageWithPath = (history, pathTo) => {
   history.push(pathTo);
 }
